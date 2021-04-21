@@ -7,7 +7,7 @@ def load_ckplus(mode):
     img_size = 48
     batch_size = 32
 
-    datagen = ImageDataGenerator(horizontal_flip=True if mode=="train" else False)
+    datagen = ImageDataGenerator(horizontal_flip=True if mode=="train" else False, rotation_range=10 if mode=="train" else False)
     generator = datagen.flow_from_directory(DATASET_DIR + mode + "/",
                                             target_size=(img_size, img_size),
                                             color_mode="grayscale",
