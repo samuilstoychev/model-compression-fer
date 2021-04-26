@@ -3,6 +3,8 @@ from tensorflow.keras.layers import BatchNormalization, Activation, MaxPooling2D
 from tensorflow.keras.models import Model, Sequential
 from tensorflow.keras.optimizers import Adam
 
+# Model adapted from the following online tutorial: https://www.coursera.org/projects/facial-expression-recognition-keras
+
 def get_fer_model(opt_lr=0.0005, input_size=48, input_channels=1, out_classes=8):
     # Initialising the CNN
     model = Sequential()
