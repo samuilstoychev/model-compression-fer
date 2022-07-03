@@ -4,7 +4,7 @@ This repository includes the code for the experiments presented in *"The Effect 
 
 ## Contents 
 
-The project repository has the following structures: 
+The project repository has the following structure: 
 * `ckplus_labels.csv` includes the manual annotations for the CK+ dataset. 
 * `fer_model.py` defines the baseline model architecture. 
 * `data.py` and `evaluation.py` define auxiliary functions for loading the CK+ dataset and evaluating models. 
