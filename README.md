@@ -1,6 +1,6 @@
 # The Effect of Model Compression on Fairness in Facial Expression Recognition
 
-This repository includes the code for the experiments presented in *"The Effect of Model Compression on Fairness in Facial Expression Recognition"* (https://arxiv.org/abs/2201.01709) - to be presented at [AMAR 2022](https://cse.usf.edu/~tjneal/AMAR2022/index.html). 
+This repository includes the code for the experiments presented in *"The Effect of Model Compression on Fairness in Facial Expression Recognition"* (https://arxiv.org/abs/2201.01709) - presented at [AMAR 2022](https://cse.usf.edu/~tjneal/AMAR2022/index.html). 
 
 ## Contents 
 
